@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Infomat checker
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.2.1
 // @description  500 error reloader
 // @author       ANeutralObserver
 // @match        https://portal55.is-mis.ru/infomt/*
@@ -29,6 +29,6 @@
         {
             console.log('check');
         }
-    }, 1000*5)
+    }, 1000*2)
 
 })();
